@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500&display=swap');
+#nombre{
+    color: tomato;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight:bold;
+    background-color:whitesmoke;
+    font-style:normal;
+    font-size: 40px;
+    letter-spacing: 3px;
+    word-spacing: 16px;
+    text-align: center;
+}
+
+.foto-perfil{
+    color: white;
+    background-color:grey;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight:300;
+    font-style: oblique;
+    font-size:25px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-align:left;
+    cursor: pointer;
+}
+
+.parrafo{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: black;
+    background-color:tomato;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    background-image: url(https://lonelyplanetes.cdnstatics2.com/sites/default/files/styles/max_1300x1300/public/fotos/Nueva%20Zelanda_LPT_Extras_217_Matt%20Munro_Lonely%20Planet.jpg?itok=V09_T3cy);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    line-height: 2em;
+    text-transform: lowercase;
+    
+
+
+}
+
+#descripcion{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: white;
+    background-color: black;
+    font-style: oblique;
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: 1px;
+    
+}
+
+#for-contacto{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: gray;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 9px; 
+    text-align: center;
+}
+
+.info-personal{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: violet;
+    background-color:black;
+    font-style: normal;
+
+}
+
+.rango{
+    cursor: pointer;
+}
+
+.formulario{
+    cursor: pointer;
+}
+
+.lista-informacion{
+    list-style: none;
+}
+
+.lista-footer{
+    list-style: none;
+}
+
