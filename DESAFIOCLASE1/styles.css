@@ -1,14 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500&display=swap');
-#nombre{
-    color: tomato;
+
+.{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+#nombre-titulo{
+    height:60px;
+    width:800px;
+    border: 5px double black;
+    padding:2px;
+    margin: 20px;
+    color: black;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight:bold;
-    background-color:whitesmoke;
+    background-color:gray;
     font-style:normal;
     font-size: 40px;
     letter-spacing: 3px;
     word-spacing: 16px;
     text-align: center;
+    position:relative;
+    left: 250px;
+    top: 5px;
 }
 
 .foto-perfil{
@@ -22,9 +38,23 @@
     word-spacing: 10px;
     text-align:left;
     cursor: pointer;
+    height:30px;
+    width:250px;
+    border: 2px dotted red;
+    padding:3px;
+    margin: 10px;
+    position: relative;
+    left: 50px;
+    top: 1px;
 }
 
 .parrafo{
+    height:270px;
+    width:400px;
+    border: 2px solid black;
+    padding:5px;
+    margin: 20px;
+    overflow:auto;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: black;
     background-color:tomato;
@@ -33,7 +63,7 @@
     font-size: 15px;
     letter-spacing: 1px;
     word-spacing: 2px;
-    background-image: url(https://lonelyplanetes.cdnstatics2.com/sites/default/files/styles/max_1300x1300/public/fotos/Nueva%20Zelanda_LPT_Extras_217_Matt%20Munro_Lonely%20Planet.jpg?itok=V09_T3cy);
+    bckground-image: url(https://lonelyplanetes.cdnstatics2.com/sites/default/files/styles/max_1300x1300/public/fotos/Nueva%20Zelanda_LPT_Extras_217_Matt%20Munro_Lonely%20Planet.jpg?itok=V09_T3cy);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -45,6 +75,11 @@
 }
 
 #descripcion{
+    height:50px;
+    width:414px;
+    border: 0px solid black;
+    padding:0px;
+    margin: 0px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: white;
     background-color: black;
@@ -52,6 +87,9 @@
     font-weight: 300;
     font-size: 25px;
     letter-spacing: 1px;
+    position:relative;
+    left:20px;
+    top: 5px;
     
 }
 
@@ -64,13 +102,27 @@
     letter-spacing: 2px;
     word-spacing: 9px; 
     text-align: center;
+    height:30px;
+    width:500px;
+    border: 5px double black;
+    padding:2px;
+    margin: 1px;
+    position: relative;
+    bottom: 5px;
 }
 
 .info-personal{
+    height:40px;
+    width:250px;
+    border: 2px dotted black;
+    padding:4px;
+    margin: 20px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: violet;
     background-color:black;
     font-style: normal;
+    position: relative;
+    top: 5px;
 
 }
 
@@ -84,9 +136,23 @@
 
 .lista-informacion{
     list-style: none;
+    display:block ;
 }
 
 .lista-footer{
     list-style: none;
+    display: block;
 }
+
+img{
+    height: 500px;
+    margin: 20px;
+    
+}
+
+body{
+    background-color: beige;
+}
+
+
 
